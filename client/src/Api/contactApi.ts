@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/contacts/';
+const API_URL = 'https://medicosapi.onrender.com/api/contacts/';
 
 export interface Contact {
     contact_id?: number;
